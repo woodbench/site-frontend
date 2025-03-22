@@ -1,0 +1,48 @@
+.FONTSIZE-12 {
+    font-size: 12px;
+  }
+  .FONTSIZE-14 {
+    font-size: 14px;
+  }
+  .FONTSIZE-16 {
+    font-size: 16px;
+  }
+  .FONTSIZE-18 {
+    font-size: 18px;
+  }
+  .FONTSIZE-20 {
+    font-size: 20px;
+  }
+  .FONTSIZE-24 {
+    font-size: 24px;
+  }
+  .FONTSIZE-28 {
+    font-size: 28px;
+  }
+  
+  .COLOR-red {
+    color: red;
+  }
+  .COLOR-blue {
+    color: blue;
+  }
+  .COLOR-green {
+    color: green;
+  }
+  .COLOR-black {
+    color: black;
+  }
+  
+  .left-align {
+    text-align: left;
+  }
+  .center-align {
+    text-align: center;
+  }
+  .right-align {
+    text-align: right;
+  }
+  .justify {
+    text-align: justify;
+  }
+  

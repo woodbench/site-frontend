@@ -1,0 +1,53 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "blog": "Blog"
+  },  
+  "banner": {
+    "alt": "Banner de WoodBench: Inspira y crea",
+    "title": "WoodBench",
+    "subtitle": "Un espacio para inspirar a quienes desean comenzar en la carpintería. Aprende a crear muebles únicos, utilizar herramientas con seguridad y desarrollar tus habilidades para hacer de esta pasión, un arte.",
+    "inspiration": "Déjate inspirar ...",
+    "button": "Lee nuestro Blog!"
+  },
+  "featuredPosts": {
+    "title": "Entrada Destacada"
+  },
+  "recentPosts": {
+    "title": "Últimas Entradas del Blog"
+  },
+  "footer": {
+    "socialMedia": "Redes Sociales.",
+    "contactUs": "Contáctate!",
+    "email": "woodbench.carpentry@gmail.com"
+  },
+  "blog": {
+    "title": "Blog de Carpintería"
+  },
+  "blogEntry": {
+    "backToBlog": "Volver al Blog",
+    "publishedOn": "Publicado el:",
+    "tagsTitle": "Tags de la Entrada",
+    "tagsSubtitle": "(Haz clic sobre un tag para ver todas las entradas con el mismo tag)",
+    "errorLoadingContent": "Error\nNo se pudo cargar el contenido."
+  },  
+  "notFound": {
+    "title": "404: Madera extraviada",
+    "message": "Nos quedamos sin madera para construir esta página. Pero no te preocupes, en el blog siempre hay algo para ti.",
+    "button": "Visitar el Blog"
+  },
+  "tagPage": {
+    "title": "Entradas etiquetadas con \"{{tag}}\"",
+    "noEntries": "No hay entradas disponibles para este tag."
+  },
+  "tooltips": {
+    "changeLanguageEs": "Cambiar idioma", 
+    "changeLanguageEn": "Change Language"
+  },
+  "buttons": {
+    "submit": "Enviar",
+    "cancel": "Cancelar",
+    "readMore": "Leer más"
+  }
+}

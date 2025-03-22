@@ -1,0 +1,53 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "blog": "Blog"
+  },
+  "banner": {
+    "alt": "WoodBench Banner: Inspire and Create",
+    "title": "WoodBench",
+    "subtitle": "A space to inspire those who want to start woodworking. Learn to create unique furniture, use tools safely, and develop your skills to turn this passion into art.",
+    "inspiration": "Let yourself be inspired ...",
+    "button": "Read our Blog!"
+  },
+  "featuredPosts": {
+    "title": "Featured Post"
+  },
+  "recentPosts": {
+    "title": "Latest Blog Posts"
+  },
+  "footer": {
+    "socialMedia": "Social Media.",
+    "contactUs": "Contact Us!",
+    "email": "woodbench.carpentry@gmail.com"
+  },
+  "blog": {
+    "title": "Woodworking Blog"
+  },
+  "blogEntry": {
+    "backToBlog": "Back to Blog",
+    "publishedOn": "Published on:",
+    "tagsTitle": "Entry Tags",
+    "tagsSubtitle": "(Click on a tag to see all entries with the same tag)",
+    "errorLoadingContent": "Error\nFailed to load the content."
+  },
+  "notFound": {
+    "title": "404: Missing Wood",
+    "message": "We ran out of wood to build this page. But don’t worry, there’s always something for you in the blog.",
+    "button": "Visit the Blog"
+  },
+  "tagPage": {
+    "title": "Posts tagged with \"{{tag}}\"",
+    "noEntries": "No entries available for this tag."
+  },
+  "tooltips": {
+    "changeLanguageEs": "Cambiar idioma", 
+    "changeLanguageEn": "Change Language"
+  },
+  "buttons": {
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "readMore": "Read more"
+  }
+}

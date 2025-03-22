@@ -1,0 +1,363 @@
+[
+  {
+    "id": 1,
+    "slugs": {
+      "es": "bienvenidos-a-woodbench",
+      "en": "welcome-to-woodbench"
+    },
+    "title": {
+      "es": "Bienvenidos a WoodBench: Mi viaje hacia la carpintería",
+      "en": "Welcome to WoodBench: My Journey into Woodworking"
+    },
+    "summary": {
+      "es": "Descubre cómo comenzó mi viaje hacia la carpintería y lo que me motivó a crear este blog.",
+      "en": "Discover how my journey into woodworking began and what inspired me to create this blog."
+    },
+    "creationDate": "2024-10-23T14:23:00Z",
+    "displayDate": "2024-10-23T14:23:00Z",
+    "publishDate": "2024-10-23T14:23:00Z",
+    "lastUpdated": "2024-10-23T14:23:00Z",
+    "tags": {
+      "es": ["introducción", "historia personal", "comenzando", "taller de carpinteria", "nuevo comienzo"],
+      "en": ["introduction", "personal story", "starting out", "woodworking workshop", "new beginning"]
+    },
+    "author": "Agustin Palisa",
+    "brand": "WoodBench",
+    "image": "/WoodBenchLogo.png",
+    "status": "published",
+    "category": {
+      "es": "Historia Personal",
+      "en": "Personal Story"
+    },
+    "readingTime": 3,
+    "featured": false,
+    "likes": 0,
+    "comments": [],
+    "visibility": "public",
+    "excerpt": {
+      "es": "Bienvenidos a WoodBench, un espacio donde comparto mi pasión por la carpintería y todo lo que he aprendido en este viaje creativo.",
+      "en": "Welcome to WoodBench, a space where I share my passion for woodworking and everything I’ve learned on this creative journey."
+    }
+  },
+  {
+    "id": 2,
+    "slugs": {
+      "es": "conociendo-las-maderas",
+      "en": "getting-to-know-woods"
+    },
+    "title": {
+      "es": "Conociendo las maderas: Características y usos en carpintería",
+      "en": "Getting to Know Woods: Characteristics and Uses in Woodworking"
+    },
+    "summary": {
+      "es": "Una introducción a los tipos de madera que puedes usar en tus proyectos, con sus características y aplicaciones.",
+      "en": "An introduction to the types of wood you can use in your projects, along with their characteristics and applications."
+    },
+    "creationDate": "2024-11-08T11:00:00Z",
+    "displayDate": "2024-11-08T11:00:00Z",
+    "publishDate": "2024-11-08T11:00:00Z",
+    "lastUpdated": "2024-11-08T11:00:00Z",
+    "tags": {
+      "es": ["tipos de madera", "maderas blandas", "maderas duras", "madera contrachapada", "fenolico", "plywood"],
+      "en": ["wood types", "softwoods", "hardwoods", "plywood", "phenolic plywood"]
+    },
+    "author": "Agustin Palisa",
+    "brand": "WoodBench",
+    "image": "/images/blog/conociendo-las-maderas/cedro.webp",
+    "status": "published",
+    "category": {
+      "es": "Materiales",
+      "en": "Materials"
+    },
+    "readingTime": 5,
+    "featured": false,
+    "likes": 0,
+    "comments": [],
+    "visibility": "public",
+    "excerpt": {
+      "es": "Descubre los tipos de madera más comunes, sus características y los proyectos en los que se utilizan mejor.",
+      "en": "Discover the most common types of wood, their characteristics, and the projects where they work best."
+    }
+  },
+  {
+    "id": 3,
+    "slugs": {
+      "es": "probando-la-bosch-gex-125-1-ae",
+      "en": "testing-the-bosch-gex-125-1-ae"
+    },
+    "title": {
+      "es": "Probando la Bosch GEX 125-1 AE: ¿Vale la pena?",
+      "en": "Testing the Bosch GEX 125-1 AE: Is It Worth It?"
+    },
+    "summary": {
+      "es": "Mi experiencia con la lijadora Bosch GEX 125-1 AE: calidad de construcción, comodidad y si realmente vale la pena para principiantes o si Einhell y Skil son opciones más adecuadas.",
+      "en": "My experience with the Bosch GEX 125-1 AE sander: build quality, comfort, and whether it’s worth it for beginners or if Einhell and Skil are better options."
+    },
+    "creationDate": "2024-11-12T22:30:00Z",
+    "displayDate": "2024-11-12T22:30:00Z",
+    "publishDate": "2024-11-12T22:30:00Z",
+    "lastUpdated": "2024-11-12T22:30:00Z",
+    "tags": {
+      "es": ["herramientas", "lijadora", "review", "Bosch", "power tools"],
+      "en": ["tools", "sander", "review", "Bosch", "power tools"]
+    },
+    "author": "Agustin Palisa",
+    "brand": "WoodBench",
+    "image": "/images/blog/probandoLaBoschGEX125-1AE/boschGEX125-1AE.webp",
+    "status": "published",
+    "category": {
+      "es": "Herramientas",
+      "en": "Tools"
+    },
+    "readingTime": 4,
+    "featured": true,
+    "likes": 0,
+    "comments": [],
+    "visibility": "public",
+    "excerpt": {
+      "es": "Explorando las ventajas de la Bosch GEX 125-1 AE y comparándola con opciones más económicas como Einhell y Skil.",
+      "en": "Exploring the advantages of the Bosch GEX 125-1 AE and comparing it to more affordable options like Einhell and Skil."
+    }
+  },
+  {
+    "id": 4,
+    "slugs": {
+      "es": "eleccion-del-espacio",
+      "en": "choosing-the-space"
+    },
+    "title": {
+      "es": "Elección del Espacio: Preparando el Taller de WoodBench",
+      "en": "Choosing the Space: Preparing the WoodBench Workshop"
+    },
+    "summary": {
+      "es": "Conoce cómo estoy convirtiendo mi cobertizo en un taller de carpintería, las herramientas y materiales que planeo usar, y mis expectativas para este nuevo espacio creativo.",
+      "en": "Learn how I’m turning my shed into a woodworking workshop, the tools and materials I plan to use, and my expectations for this creative new space."
+    },
+    "creationDate": "2024-11-01T14:07:00Z",
+    "displayDate": "2024-11-01T14:07:00Z",
+    "publishDate": "2024-11-01T14:07:00Z",
+    "lastUpdated": "2024-11-01T14:07:00Z",
+    "tags": {
+      "es": ["taller de carpinteria", "espacio de trabajo", "comenzando", "nuevo comienzo", "organización"],
+      "en": ["workshop", "workspace", "starting out", "new beginnings", "organization"]
+    },
+    "author": "Agustin Palisa",
+    "brand": "WoodBench",
+    "image": "/images/blog/eleccion-del-espacio/eleccionDelEspacio.webp",
+    "status": "published",
+    "category": {
+      "es": "Taller",
+      "en": "Workshop"
+    },
+    "readingTime": 3,
+    "featured": false,
+    "likes": 0,
+    "comments": [],
+    "visibility": "public",
+    "excerpt": {
+      "es": "Descubre cómo estoy convirtiendo un cobertizo en mi taller de carpintería y los pasos para preparar el espacio.",
+      "en": "Learn how I’m turning a shed into my woodworking workshop and the steps to prepare the space."
+    }
+  },
+  {
+    "id": 5,
+    "slugs": {
+      "es": "mi-experiencia-con-las-maderas",
+      "en": "my-experience-with-woods"
+    },
+    "title": {
+      "es": "Del Roble al Pino: Lecciones Aprendidas en Mis Primeros Proyectos",
+      "en": "From Oak to Pine: Lessons Learned in My First Projects"
+    },
+    "summary": {
+      "es": "Mis primeras experiencias con diferentes tipos de maderas: los desafíos del roble, el aprendizaje con el pino y la versatilidad del fenólico.",
+      "en": "My first experiences with different types of wood: the challenges of oak, learning with pine, and the versatility of phenolic plywood."
+    },
+    "creationDate": "2024-11-15T12:44:00Z",
+    "displayDate": "2024-11-15T12:44:00Z",
+    "publishDate": "2024-11-15T12:44:00Z",
+    "lastUpdated": "2024-11-15T12:44:00Z",
+    "tags": {
+      "es": ["tipos de madera", "roble", "pino", "fenólico", "lecciones", "madera contrachapada", "plywood"],
+      "en": ["wood types", "oak", "pine", "phenolic plywood", "lessons", "plywood"]
+    },
+    "author": "Agustin Palisa",
+    "brand": "WoodBench",
+    "image": "/images/blog/mi-experiencia-con-las-maderas/experienciaConMadera.jpg",
+    "status": "published",
+    "category": {
+      "es": "Experiencias",
+      "en": "Experiences"
+    },
+    "readingTime": 6,
+    "featured": false,
+    "likes": 0,
+    "comments": [],
+    "visibility": "public",
+    "excerpt": {
+      "es": "Mis primeras lecciones trabajando con diferentes maderas: desde el desafiante roble hasta la versatilidad del fenólico.",
+      "en": "My first lessons working with different types of wood: from the challenging oak to the versatility of phenolic plywood."
+    }
+  },
+  {
+    "id": 6,
+    "slugs": {
+      "es": "codigos-calidad-madera",
+      "en": "wood-quality-codes"
+    },
+    "title": {
+      "es": "Comprendiendo los Codigos de Calidad de la Madera",
+      "en": "Understanding Wood Quality Codes"
+    },
+    "summary": {
+      "es": "Una guía para entender los diferentes códigos de calidad de la madera y cómo afectan la elección de materiales en carpintería.",
+      "en": "A guide to understanding the different wood quality codes and how they affect material choices in woodworking."
+    },
+    "creationDate": "2024-11-22T16:46:00Z",
+    "displayDate": "2024-11-22T16:46:00Z",
+    "publishDate": "2024-11-22T16:46:00Z",
+    "lastUpdated": "2024-11-22T16:46:00Z",
+    "tags": {
+      "es": ["códigos de calidad", "madera", "grados de calidad", "certificación", "FSC", "PEFC", "madera contrachapada"],
+      "en": ["quality codes", "wood", "quality grades", "certification", "FSC", "PEFC", "plywood"]
+    },
+    "author": "Agustin Palisa",
+    "brand": "WoodBench",
+    "image": "/images/blog/codigos-calidad-madera/fenolicoBC.webp",
+    "status": "published",
+    "category": {
+      "es": "Materiales",
+      "en": "Materials"
+    },
+    "readingTime": 7,
+    "featured": false,
+    "likes": 0,
+    "comments": [],
+    "visibility": "public",
+    "excerpt": {
+      "es": "Explora los diferentes códigos de calidad de la madera y cómo afectan la selección de materiales para tus proyectos de carpintería.",
+      "en": "Explore the different wood quality codes and how they affect material selection for your woodworking projects."
+    }
+  },
+  {
+    "id": 7,
+    "slugs": {
+      "es": "el-martillazo",
+      "en": "the-hammer-blow"
+    },
+    "title": {
+      "es": "Cómo aprendí que la madera no siempre tiene la razón (y mi dedo tampoco)",
+      "en": "How I Learned That Wood Doesn't Always Have the Last Word (And Neither Does My Finger)"
+    },
+    "summary": {
+      "es": "Una lección de carpintería que vino acompañada de un martillazo, un perro curioso y una repisa flotante con carácter propio.",
+      "en": "A woodworking lesson that came with a hammer blow, a curious dog, and a floating shelf with a personality of its own."
+    },
+    "creationDate": "2024-01-10T10:00:00Z",
+    "displayDate": "2024-01-10T10:00:00Z",
+    "publishDate": "2024-01-10T10:00:00Z",
+    "lastUpdated": "2024-01-10T10:00:00Z",
+    "tags": {
+      "es": ["carpintería", "anécdota", "martillazo", "errores", "lecciones"],
+      "en": ["woodworking", "anecdote", "hammer blow", "mistakes", "lessons"]
+    },
+    "author": "Agustin Palisa",
+    "brand": "WoodBench",
+    "image": "/images/blog/el-martillazo/perro-el-martillazo.webp",
+    "status": "published",
+    "category": {
+      "es": "Anécdotas",
+      "en": "Anecdotes"
+    },
+    "readingTime": 4,
+    "featured": false,
+    "likes": 0,
+    "comments": [],
+    "visibility": "public",
+    "excerpt": {
+      "es": "Hay lecciones que se aprenden con libros y otras que solo se aprenden a martillazo limpio. Esta es mi experiencia.",
+      "en": "Some lessons are learned from books, and others are taught by a hammer blow. This is my story."
+    }
+  },
+  {
+    "id": 8,
+    "slugs": {
+      "es": "descubriendo-einhell-rt-js-85",
+      "en": "discovering-einhell-rt-js-85"
+    },
+    "title": {
+      "es": "¡Mi Nueva Caladora! Mi Experiencia con la Einhell RT-JS 85",
+      "en": "My New Jigsaw! My Experience with the Einhell RT-JS 85"
+    },
+    "summary": {
+      "es": "Explora mi experiencia con la caladora Einhell RT-JS 85 y cómo transformó mi taller.",
+      "en": "Explore my experience with the Einhell RT-JS 85 jigsaw and how it transformed my workshop."
+    },
+    "creationDate": "2024-01-15T10:00:00Z",
+    "displayDate": "2024-01-15T10:00:00Z",
+    "publishDate": "2024-01-15T10:00:00Z",
+    "lastUpdated": "2024-01-15T10:00:00Z",
+    "tags": {
+      "es": ["carpintería", "herramientas", "Einhell", "caladora", "reseña"],
+      "en": ["woodworking", "tools", "Einhell", "jigsaw", "review"]
+    },
+    "author": "Agustin Palisa",
+    "brand": "WoodBench",
+    "image": "/images/blog/descubriendo-einhell-rt-js-85/portada-caladora-rt-js-85.webp",
+    "status": "published",
+    "category": {
+      "es": "Herramientas",
+      "en": "Tools"
+    },
+    "readingTime": 5,
+    "featured": false,
+    "likes": 0,
+    "comments": [],
+    "visibility": "public",
+    "excerpt": {
+      "es": "Descubre las características, ventajas y desventajas de la Einhell RT-JS 85 en esta reseña detallada.",
+      "en": "Discover the features, pros, and cons of the Einhell RT-JS 85 in this detailed review."
+    }
+  },
+  {
+    "id": 9,
+    "slugs": {
+      "es": "lanzamiento-pagina-oficial-woodbench",
+      "en": "official-site-launch-woodbench"
+    },
+    "title": {
+      "es": "¡WoodBench tendrá su propia página oficial!",
+      "en": "WoodBench Will Have Its Own Official Page!"
+    },
+    "summary": {
+      "es": "Anuncio del lanzamiento de la página oficial de WoodBench, un espacio dedicado a la carpintería y creatividad.",
+      "en": "Announcement of the launch of WoodBench's official page, a space dedicated to woodworking and creativity."
+    },
+    "creationDate": "2024-01-20T10:00:00Z",
+    "displayDate": "2024-01-20T10:00:00Z",
+    "publishDate": "2024-01-20T10:00:00Z",
+    "lastUpdated": "2024-01-20T10:00:00Z",
+    "tags": {
+      "es": ["woodbench", "anuncio", "lanzamiento", "página oficial", "carpintería"],
+      "en": ["woodbench", "announcement", "launch", "official page", "woodworking"]
+    },
+    "author": "Agustin Palisa",
+    "brand": "WoodBench",
+    "image": "/images/blog/lanzamiento-pagina-oficial-woodbench/SitioWoodBench.png",
+    "status": "published",
+    "category": {
+      "es": "Anuncios",
+      "en": "Announcements"
+    },
+    "readingTime": 4,
+    "featured": false,
+    "likes": 0,
+    "comments": [],
+    "visibility": "public",
+    "excerpt": {
+      "es": "Descubre cómo será la nueva página oficial de WoodBench, diseñada para amantes de la carpintería.",
+      "en": "Discover what WoodBench's new official page will be like, designed for woodworking enthusiasts."
+    }
+  }
+  
+]
