@@ -1,7 +1,6 @@
 Hoy quiero contarles sobre la **Bosch GEX 125-1 AE**, una lijadora que estaba en mi lista de deseos desde hace un tiempo. Después de mucho evaluar y comparar, decidí comprarla, principalmente porque estaba en oferta y al final me salió casi lo mismo que una Einhell o Stanley. Dado que Bosch es una marca de primera línea, quise probarla y ver si realmente vale la pena la diferencia.
 
 ![Bosch GEX 125-1 AE](/images/blog/probandoLaBoschGEX125-1AE/boschGEX125-1AE.webp)
-<!-- ![Bosch GEX 125-1 AE](/images/blog/probandoLaBoschGEX125-1AE/dewalt.webp) -->
 
 Hasta ahora, la experiencia ha sido muy buena. La construcción es sólida y, en comparación con las lijadoras más económicas, parece que está hecha para durar. La comodidad al usarla también es algo que noté desde el primer día. Después de algunas sesiones de uso, creo que el control de vibración y la ergonomía marcan la diferencia, algo que puede no ser tan evidente en las opciones más económicas.
 

@@ -1,35 +1,30 @@
+// React + Draft.js
 import { useState } from 'react';
-import {
-  Editor,
-  EditorState,
-  RichUtils,
-  convertToRaw,
-  Modifier,
-} from 'draft-js';
+import { Editor, EditorState, RichUtils, convertToRaw, Modifier } from 'draft-js';
 import 'draft-js/dist/Draft.css';
-import {
-  Box,
-  Button,
-  IconButton,
-  Menu,
-  MenuItem,
-  Divider,
-} from '@mui/material';
+
+// MUI
+import { Box, Button, IconButton, Menu, MenuItem, Divider } from '@mui/material';
+
+// MUI Icons
 import FormatBoldIcon from '@mui/icons-material/FormatBold';
 import FormatItalicIcon from '@mui/icons-material/FormatItalic';
 import FormatUnderlinedIcon from '@mui/icons-material/FormatUnderlined';
+import FormatSizeIcon from '@mui/icons-material/FormatSize';
+import FontDownloadIcon from '@mui/icons-material/FontDownload';
+
+// ⏳ Íconos para futuras funcionalidades (listas, imágenes, alineación, color, etc.)
+/*
+import FormatListBulletedIcon from '@mui/icons-material/FormatListBulleted';
+import FormatListNumberedIcon from '@mui/icons-material/FormatListNumbered';
+import AddPhotoAlternateIcon from '@mui/icons-material/AddPhotoAlternate';
 import FormatAlignJustifyIcon from '@mui/icons-material/FormatAlignJustify';
 import FormatAlignCenterIcon from '@mui/icons-material/FormatAlignCenter';
 import FormatAlignLeftIcon from '@mui/icons-material/FormatAlignLeft';
 import FormatAlignRightIcon from '@mui/icons-material/FormatAlignRight';
 import FormatColorTextIcon from '@mui/icons-material/FormatColorText';
-import FormatSizeIcon from '@mui/icons-material/FormatSize';
-import FontDownloadIcon from '@mui/icons-material/FontDownload';
-/* Proximas funcionalidades
-import FormatListBulletedIcon from '@mui/icons-material/FormatListBulleted';
-import FormatListNumberedIcon from '@mui/icons-material/FormatListNumbered';
-import AddPhotoAlternateIcon from '@mui/icons-material/AddPhotoAlternate';
 */
+
 import './RichTextEditor.css';
 
 export const RichTextEditor = ({ onSave }) => {
@@ -68,7 +63,9 @@ export const RichTextEditor = ({ onSave }) => {
   };
 
   return (
-    <Box style={{ border: '1px solid #ccc', borderRadius: '5px', padding: '10px', minHeight: '200px' }}>
+    <Box
+      style={{ border: '1px solid #ccc', borderRadius: '5px', padding: '10px', minHeight: '200px' }}
+    >
       <Box style={{ marginBottom: '10px', display: 'flex', alignItems: 'center', gap: '8px' }}>
         {/* Inline styles */}
         <IconButton
@@ -95,11 +92,7 @@ export const RichTextEditor = ({ onSave }) => {
         <IconButton onClick={(e) => setAnchorEl(e.currentTarget)}>
           <FormatSizeIcon />
         </IconButton>
-        <Menu
-          anchorEl={anchorEl}
-          open={Boolean(anchorEl)}
-          onClose={() => setAnchorEl(null)}
-        >
+        <Menu anchorEl={anchorEl} open={Boolean(anchorEl)} onClose={() => setAnchorEl(null)}>
           {[12, 14, 16, 18, 20, 24, 28].map((size) => (
             <MenuItem key={size} onClick={() => applyFontSize(size)}>
               {size}px
@@ -108,10 +101,7 @@ export const RichTextEditor = ({ onSave }) => {
         </Menu>
 
         {/* Clear styles */}
-        <IconButton
-          onClick={() => toggleInlineStyle('')}
-          color="default"
-        >
+        <IconButton onClick={() => toggleInlineStyle('')} color="default">
           <FontDownloadIcon />
         </IconButton>
       </Box>
@@ -123,11 +113,7 @@ export const RichTextEditor = ({ onSave }) => {
         placeholder="Escribí tu entrada aquí..."
       />
 
-      <Button
-        variant="contained"
-        onClick={handleSave}
-        style={{ marginTop: '20px' }}
-      >
+      <Button variant="contained" onClick={handleSave} style={{ marginTop: '20px' }}>
         Guardar
       </Button>
     </Box>

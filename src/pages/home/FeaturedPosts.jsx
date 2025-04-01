@@ -1,18 +1,22 @@
-import { Typography } from "@mui/material";
-import { PostCard } from "../../components/common/PostCard";
-import { useTranslation } from "react-i18next";
+import { useTranslation } from 'react-i18next';
+import { Typography } from '@mui/material';
+
+import { PostCard } from '../../components/common/PostCard';
 
 export const FeaturedPosts = ({ posts }) => {
   const { t } = useTranslation();
 
   return (
     <>
-      <Typography variant="h2" sx={{ marginTop: '30px', marginBottom: '15px' }}>
+      <Typography variant="h2" sx={{ mt: 4, mb: 2 }}>
         {t('featuredPosts.title')}
       </Typography>
-      {posts.map(post => (
-        <PostCard key={post.id} post={post} />
-      ))}
+
+      {posts.length === 0 ? (
+        <Typography variant="body1">{t('featuredPosts.empty')}</Typography>
+      ) : (
+        posts.map((post) => <PostCard key={post.id} post={post} />)
+      )}
     </>
   );
 };

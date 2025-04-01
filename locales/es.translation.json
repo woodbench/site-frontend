@@ -3,7 +3,7 @@
     "home": "Inicio",
     "about": "Nosotros",
     "blog": "Blog"
-  },  
+  },
   "banner": {
     "alt": "Banner de WoodBench: Inspira y crea",
     "title": "WoodBench",
@@ -12,10 +12,12 @@
     "button": "Lee nuestro Blog!"
   },
   "featuredPosts": {
-    "title": "Entrada Destacada"
+    "title": "Entrada Destacada",
+    "empty": "No hay entradas destacadas por el momento."
   },
   "recentPosts": {
-    "title": "Últimas Entradas del Blog"
+    "title": "Últimas Entradas del Blog",
+    "empty": "No hay entradas recientes disponibles."
   },
   "footer": {
     "socialMedia": "Redes Sociales.",
@@ -31,7 +33,7 @@
     "tagsTitle": "Tags de la Entrada",
     "tagsSubtitle": "(Haz clic sobre un tag para ver todas las entradas con el mismo tag)",
     "errorLoadingContent": "Error\nNo se pudo cargar el contenido."
-  },  
+  },
   "notFound": {
     "title": "404: Madera extraviada",
     "message": "Nos quedamos sin madera para construir esta página. Pero no te preocupes, en el blog siempre hay algo para ti.",
@@ -39,10 +41,16 @@
   },
   "tagPage": {
     "title": "Entradas etiquetadas con \"{{tag}}\"",
-    "noEntries": "No hay entradas disponibles para este tag."
+    "noEntries": "No hay entradas disponibles para este tag.",
+    "loading": "Cargando entradas...",
+    "error": "Error al cargar entradas: {{error}}"
+  },
+  "tags": {
+    "seeMore": "Ver más ...",
+    "seeLess": "Ver menos ..."
   },
   "tooltips": {
-    "changeLanguageEs": "Cambiar idioma", 
+    "changeLanguageEs": "Cambiar idioma",
     "changeLanguageEn": "Change Language"
   },
   "buttons": {

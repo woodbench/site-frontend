@@ -25,9 +25,11 @@ Moving on to hardwoods, these are usually denser and more resistant, giving them
 **Cherry**, on the other hand, is highly valued not only for its strength but also for its aesthetic appeal. With a reddish hue that darkens over time, this wood is perfect for fine furniture, cabinets, and decorative elements. Its natural beauty makes it highly sought after for high-quality projects, making it a valuable investment for special creations.
 
 ### Plywood
+
 We can’t forget about plywood, also known as laminated or engineered wood. This material is made of thin layers of wood glued together, giving it remarkable strength and stability. It’s widely used in construction and DIY projects, making it perfect for furniture bases, shelves, and paneling. Its versatility makes it an essential option in any woodworking workshop.
 
 ### Factors to Consider When Choosing Wood
+
 When selecting the right wood, it’s essential to consider several factors. First, the **durability** of the material is key: will the project require resistance to moisture or wear? It’s also important to take into account the desired **appearance**, as some projects may require woods that can be effectively stained or varnished.
 
 **Cost** is another aspect to consider, as harder and more exotic woods tend to be more expensive. Lastly, the **ease of working** with the wood is crucial, especially if you’re a beginner. Some woods are easier to handle than others, and this can influence your choice depending on your skills and available tools.

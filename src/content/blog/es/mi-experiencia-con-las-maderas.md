@@ -1,6 +1,4 @@
-
 Cuando recién empezaba en esto de la carpintería cometí un error muy común: me dejé llevar por la apariencia y las características que leía sobre una madera que, en ese momento, me parecía increíble. Me había enamorado del roble, una madera fuerte, pesada y con un acabado hermoso. Sin tener mucha experiencia, me dije: “¿Por qué no? ¿Qué tan difícil puede ser trabajar con una madera u otra?”. Pues bien, lo descubrí rápido, y no fue un camino sencillo.
-
 
 Empecé a trabajar con este roble, pero pronto me topé con miles de problemas. Es una madera dura, y al ser un novato con pocas herramientas, cada corte me llevaba una eternidad. Para cuando había logrado avanzar, los bordes me quedaban mal acabados, y lo peor fue cuando me di cuenta de lo difícil que era unir piezas de esta madera. Cada clavo o tornillo parecía un desafío, y la frustración fue creciendo.
 

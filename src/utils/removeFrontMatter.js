@@ -5,5 +5,5 @@
  * @returns {string} - Contenido Markdown sin Front Matter.
  */
 export const removeFrontMatter = (markdown) => {
-    return markdown.replace(/^---[\s\S]*?---\s*/, '');
+  return markdown.replace(/^---[\s\S]*?---\s*/, '');
 };

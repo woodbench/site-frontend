@@ -1,14 +1,3 @@
----
-title: "My New Jigsaw! My Experience with the Einhell RT-JS 85"
-date: "2024-01-15T10:00:00Z"
-tags:
-  - woodworking
-  - tools
-  - Einhell
-  - jigsaw
-  - review
----
-
 Hello everyone! I’m excited to share that I’ve finally purchased a jigsaw, the Einhell RT-JS 85. After a long time searching and analyzing different models, I decided that this would be the perfect tool for my projects.
 
 One of the most important decisions I made was to go for a corded jigsaw instead of a cordless one. There are several reasons why I chose this option. First, the consistent power that a corded tool offers is hard to beat. When working on long cuts or thicker materials, I know I won’t have to worry about battery life or losing power. This gives me the confidence to tackle large projects without interruptions.

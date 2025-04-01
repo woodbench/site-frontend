@@ -8,15 +8,18 @@ import { useGetEntryCardsQuery } from '../../store/services/api';
 
 export const Blog = () => {
   const { t } = useTranslation();
-  // const { posts, isLoading, error } = useBlogPosts();
-  const { data: entries, isLoading, isError } = useGetEntryCardsQuery()
-console.log(entries)
+
+  // 🔄 Para usar cuando se conecte al backend:
+  // const { data: entries, isLoading, isError } = useGetEntryCardsQuery();
+  // TODO: Reemplazar useBlogPosts con useGetEntryCardsQuery cuando se conecte al backend real
+  const { posts, isLoading, error } = useBlogPosts();
+
   if (isLoading) {
     return <Typography>Cargando...</Typography>;
   }
 
-  if (isError) {
-    return <Typography>Error: {isError}</Typography>;
+  if (error) {
+    return <Typography>Error: {error}</Typography>;
   }
 
   return (
@@ -26,8 +29,8 @@ console.log(entries)
       </Typography>
 
       <Grid container spacing={2}>
-        {entries.map((entry) => (
-          <Grid size={{xs: 12, sm: 6, md: 4}} key={entry._id}>
+        {posts.map((entry) => (
+          <Grid size={{ xs: 12, sm: 6, md: 4 }} key={entry._id}>
             <PostCard post={entry} />
           </Grid>
         ))}

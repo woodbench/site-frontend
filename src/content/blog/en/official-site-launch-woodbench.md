@@ -1,14 +1,3 @@
----
-title: "WoodBench Will Have Its Own Official Page!"
-date: "2024-01-20T10:00:00Z"
-tags:
-  - woodbench
-  - announcement
-  - launch
-  - official page
-  - woodworking
----
-
 Hello, woodworking enthusiasts!
 
 Today, I’m thrilled to share some news that has me as excited as finishing a project that turns out even better than expected. WoodBench will have its own official page! Yes, a space entirely dedicated to everything we love: woodworking, creativity, and, of course, our shared stories and tips.

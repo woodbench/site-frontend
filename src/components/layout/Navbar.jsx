@@ -1,22 +1,38 @@
+// React
 import * as React from 'react';
+
+// Router
 import { Link } from 'react-router-dom';
-import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
-import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
-import Menu from '@mui/material/Menu';
+
+// i18n
+import { useTranslation } from 'react-i18next';
+
+// MUI Core
+import {
+  AppBar,
+  Box,
+  Toolbar,
+  IconButton,
+  Typography,
+  Container,
+  Avatar,
+  Button,
+  Drawer,
+  List,
+  ListItem,
+  ListItemButton,
+  ListItemIcon,
+  ListItemText,
+} from '@mui/material';
+
+// MUI Icons
 import MenuIcon from '@mui/icons-material/Menu';
-import Container from '@mui/material/Container';
-import Avatar from '@mui/material/Avatar';
-import Button from '@mui/material/Button';
-import MenuItem from '@mui/material/MenuItem';
-import { Drawer, List, ListItem, ListItemButton, ListItemIcon, ListItemText } from '@mui/material';
-import { LanguageSelector } from '../common/LanguageSelector';
 import HomeIcon from '@mui/icons-material/Home';
 import EmojiPeopleIcon from '@mui/icons-material/EmojiPeople';
 import ArticleIcon from '@mui/icons-material/Article';
-import { useTranslation } from 'react-i18next';
+
+// Componentes propios
+import { LanguageSelector } from '../common/LanguageSelector';
 
 export const Navbar = () => {
   const { t } = useTranslation();
@@ -79,13 +95,13 @@ export const Navbar = () => {
         color: 'white',
         position: 'sticky',
         top: 0,
-        zIndex: 1
+        zIndex: 1,
       }}
     >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           {/* Menú Hamburguesa para vista móvil */}
-          <Box sx={{display: {xs:'flex', md:'none'}}}>
+          <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
             <IconButton
               size="large"
               aria-label="menu"
@@ -128,11 +144,12 @@ export const Navbar = () => {
               WOODBENCH
             </Typography> */}
           </Box>
-
-          
-
           {/* Contenido para vista desktop */}
-          <IconButton component={Link} to="/" sx={{ p: 0, display: { xs: 'none', md: 'flex' }, mr: 1 }}>
+          <IconButton
+            component={Link}
+            to="/"
+            sx={{ p: 0, display: { xs: 'none', md: 'flex' }, mr: 1 }}
+          >
             <Avatar
               alt="WoodBench Logo"
               src="/WoodBenchLogoWhiteNoBackground.png"
@@ -158,7 +175,9 @@ export const Navbar = () => {
           </Typography>
 
           {/* Menú de Navegación - Vista Desktop */}
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: 'flex-end' }}>
+          <Box
+            sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: 'flex-end' }}
+          >
             {pages.map((page) => (
               <Button
                 component={Link}
@@ -179,7 +198,13 @@ export const Navbar = () => {
               </Button>
             ))}
           </Box>
-          <Box sx={{ ml: {xs: 'none', md: 4}, borderLeft: {xs: 'none', md: '1px solid white'}, pl: 2 }}>
+          <Box
+            sx={{
+              ml: { xs: 'none', md: 4 },
+              borderLeft: { xs: 'none', md: '1px solid white' },
+              pl: 2,
+            }}
+          >
             <LanguageSelector />
           </Box>
         </Toolbar>

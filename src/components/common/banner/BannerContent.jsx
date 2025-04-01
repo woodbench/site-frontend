@@ -1,20 +1,23 @@
-import { Typography, Button, Box } from "@mui/material";
-import Grid from '@mui/material/Grid2'
-import { Link } from "react-router-dom";
+// MUI
+import { Typography, Button, Box } from '@mui/material';
+import Grid from '@mui/material/Grid2';
+
+// Router
+import { Link } from 'react-router-dom';
 
 export const BannerContent = ({ title, subtitle, inspiration, buttonText, buttonLink }) => (
   <Box
     sx={{
-      position: "absolute",
+      position: 'absolute',
       top: 0,
-      width: "100%",
-      height: "100%",
-      display: "flex",
-      flexDirection: "column",
-      alignItems: "center",
-      justifyContent: "center",
-      color: "white",
-      textShadow: "2px 2px 4px rgba(0, 0, 0, 0.7)",
+      width: '100%',
+      height: '100%',
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      justifyContent: 'center',
+      color: 'white',
+      textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)',
     }}
   >
     <Grid container>
@@ -22,38 +25,39 @@ export const BannerContent = ({ title, subtitle, inspiration, buttonText, button
         <Typography
           variant="h1"
           sx={{
-            justifyContent: "center",
-            display: "flex",
-            fontSize: "4rem",
+            justifyContent: 'center',
+            display: 'flex',
+            fontSize: '4rem',
           }}
         >
           {title}
         </Typography>
         <Typography
           sx={{
-            display: { xs: "none", md: "block" },
-            fontSize: "1.3rem",
-            fontStyle: "italic",
-            marginLeft: "50px",
+            display: { xs: 'none', md: 'block' },
+            fontSize: '1.3rem',
+            fontStyle: 'italic',
+            marginLeft: '50px',
+            paddingX: 10,
           }}
         >
           {subtitle}
         </Typography>
       </Grid>
-      <Grid 
+      <Grid
         size={{ xs: 12, md: 5 }}
         sx={{
-          alignItems: "center",
-          display: "flex",
-          justifyContent: "center",
-          flexDirection: "column",
-          height: "100%",
+          alignItems: 'center',
+          display: 'flex',
+          justifyContent: 'center',
+          flexDirection: 'column',
+          height: '100%',
         }}
       >
         <Typography
           sx={{
-            fontSize: "1.5rem",
-            marginBottom: "15px",
+            fontSize: '1.5rem',
+            marginBottom: '15px',
           }}
         >
           {inspiration}
@@ -64,9 +68,9 @@ export const BannerContent = ({ title, subtitle, inspiration, buttonText, button
           variant="contained"
           size="large"
           sx={{
-            backgroundColor: "white",
-            color: "#333",
-            textShadow: "none",
+            backgroundColor: 'white',
+            color: '#333',
+            textShadow: 'none',
           }}
         >
           {buttonText}

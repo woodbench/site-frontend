@@ -18,16 +18,16 @@
     "publishDate": "2024-10-23T14:23:00Z",
     "lastUpdated": "2024-10-23T14:23:00Z",
     "tags": {
-      "es": ["introducción", "historia personal", "comenzando", "taller de carpinteria", "nuevo comienzo"],
-      "en": ["introduction", "personal story", "starting out", "woodworking workshop", "new beginning"]
+      "es": ["historias", "nuevo comienzo", "experiencia personal", "reflexiones"],
+      "en": ["stories", "new beginning", "personal experience", "reflections"]
     },
     "author": "Agustin Palisa",
     "brand": "WoodBench",
     "image": "/WoodBenchLogo.png",
     "status": "published",
     "category": {
-      "es": "Historia Personal",
-      "en": "Personal Story"
+      "es": "Historias y anecdotas",
+      "en": "stories and anecdotes"
     },
     "readingTime": 3,
     "featured": false,
@@ -58,8 +58,8 @@
     "publishDate": "2024-11-08T11:00:00Z",
     "lastUpdated": "2024-11-08T11:00:00Z",
     "tags": {
-      "es": ["tipos de madera", "maderas blandas", "maderas duras", "madera contrachapada", "fenolico", "plywood"],
-      "en": ["wood types", "softwoods", "hardwoods", "plywood", "phenolic plywood"]
+      "es": ["materiales", "tipos de madera", "principiantes", "guía"],
+      "en": ["materials", "wood types", "beginners", "guide"]
     },
     "author": "Agustin Palisa",
     "brand": "WoodBench",
@@ -98,8 +98,8 @@
     "publishDate": "2024-11-12T22:30:00Z",
     "lastUpdated": "2024-11-12T22:30:00Z",
     "tags": {
-      "es": ["herramientas", "lijadora", "review", "Bosch", "power tools"],
-      "en": ["tools", "sander", "review", "Bosch", "power tools"]
+      "es": ["herramientas", "reseñas", "experiencia personal", "principiantes"],
+      "en": ["tools", "reviews", "personal experience", "beginners"]
     },
     "author": "Agustin Palisa",
     "brand": "WoodBench",
@@ -138,8 +138,8 @@
     "publishDate": "2024-11-01T14:07:00Z",
     "lastUpdated": "2024-11-01T14:07:00Z",
     "tags": {
-      "es": ["taller de carpinteria", "espacio de trabajo", "comenzando", "nuevo comienzo", "organización"],
-      "en": ["workshop", "workspace", "starting out", "new beginnings", "organization"]
+      "es": ["taller", "organización", "espacio de trabajo", "nuevo comienzo", "principiantes"],
+      "en": ["workshop", "organization", "workspace", "new beginning", "beginners"]
     },
     "author": "Agustin Palisa",
     "brand": "WoodBench",
@@ -178,8 +178,8 @@
     "publishDate": "2024-11-15T12:44:00Z",
     "lastUpdated": "2024-11-15T12:44:00Z",
     "tags": {
-      "es": ["tipos de madera", "roble", "pino", "fenólico", "lecciones", "madera contrachapada", "plywood"],
-      "en": ["wood types", "oak", "pine", "phenolic plywood", "lessons", "plywood"]
+      "es": ["materiales", "tipos de madera", "experiencia personal", "aprendizaje"],
+      "en": ["materials", "wood types", "personal experience", "learning"]
     },
     "author": "Agustin Palisa",
     "brand": "WoodBench",
@@ -218,8 +218,8 @@
     "publishDate": "2024-11-22T16:46:00Z",
     "lastUpdated": "2024-11-22T16:46:00Z",
     "tags": {
-      "es": ["códigos de calidad", "madera", "grados de calidad", "certificación", "FSC", "PEFC", "madera contrachapada"],
-      "en": ["quality codes", "wood", "quality grades", "certification", "FSC", "PEFC", "plywood"]
+      "es": ["materiales", "tipos de madera", "certificación", "codigo de calidad", "guía"],
+      "en": ["materials", "wood types", "certification", "guide"]
     },
     "author": "Agustin Palisa",
     "brand": "WoodBench",
@@ -258,8 +258,8 @@
     "publishDate": "2024-01-10T10:00:00Z",
     "lastUpdated": "2024-01-10T10:00:00Z",
     "tags": {
-      "es": ["carpintería", "anécdota", "martillazo", "errores", "lecciones"],
-      "en": ["woodworking", "anecdote", "hammer blow", "mistakes", "lessons"]
+      "es": ["anécdota", "errores", "experiencia personal", "reflexiones", "taller"],
+      "en": ["anecdote", "mistakes", "personal experience", "reflections", "workshop"]
     },
     "author": "Agustin Palisa",
     "brand": "WoodBench",
@@ -298,8 +298,8 @@
     "publishDate": "2024-01-15T10:00:00Z",
     "lastUpdated": "2024-01-15T10:00:00Z",
     "tags": {
-      "es": ["carpintería", "herramientas", "Einhell", "caladora", "reseña"],
-      "en": ["woodworking", "tools", "Einhell", "jigsaw", "review"]
+      "es": ["herramientas", "reseñas", "experiencia personal", "principiantes"],
+      "en": ["tools", "reviews", "personal experience", "beginners"]
     },
     "author": "Agustin Palisa",
     "brand": "WoodBench",
@@ -338,8 +338,8 @@
     "publishDate": "2024-01-20T10:00:00Z",
     "lastUpdated": "2024-01-20T10:00:00Z",
     "tags": {
-      "es": ["woodbench", "anuncio", "lanzamiento", "página oficial", "carpintería"],
-      "en": ["woodbench", "announcement", "launch", "official page", "woodworking"]
+      "es": ["anuncios", "woodbench"],
+      "en": ["announcements", "woodbench"]
     },
     "author": "Agustin Palisa",
     "brand": "WoodBench",
@@ -358,6 +358,177 @@
       "es": "Descubre cómo será la nueva página oficial de WoodBench, diseñada para amantes de la carpintería.",
       "en": "Discover what WoodBench's new official page will be like, designed for woodworking enthusiasts."
     }
+  },
+  {
+    "id": 10,
+    "slugs": {
+      "es": "tecnica-union-cola-milano",
+      "en": "dovetail-joint-woodworking-technique"
+    },
+    "title": {
+      "es": "La técnica que todo carpintero debería dominar: Cola de milano",
+      "en": "The Woodworking Technique Every Woodworker Should Master: The Dovetail Joint"
+    },
+    "summary": {
+      "es": "Aprendé paso a paso cómo hacer una unión a cola de milano: una técnica clásica, resistente y estética que aporta un detalle artesanal a tus proyectos.",
+      "en": "Learn step by step how to make a dovetail joint: a classic, strong, and beautiful technique that adds handcrafted detail to your projects."
+    },
+    "creationDate": "2025-03-28T00:00:00Z",
+    "displayDate": "2025-03-28T00:00:00Z",
+    "publishDate": "2025-03-28T00:00:00Z",
+    "lastUpdated": "2025-03-28T00:00:00Z",
+    "tags": {
+      "es": ["técnicas", "ensambles", "guía", "carpintería clásica"],
+      "en": ["techniques", "joinery", "guide", "traditional woodworking"]
+    },
+    "author": "Agustin Palisa",
+    "brand": "WoodBench",
+    "image": "/images/blog/tecnica-union-cola-milano/cola-de-milano-1.jpg",
+    "status": "published",
+    "category": {
+      "es": "Técnicas",
+      "en": "Techniques"
+    },
+    "readingTime": 6,
+    "featured": false,
+    "likes": 0,
+    "comments": [],
+    "visibility": "public",
+    "excerpt": {
+      "es": "Domina la clásica unión a cola de milano con esta guía paso a paso. Perfecta para cajones, cajas y más.",
+      "en": "Master the classic dovetail joint with this step-by-step guide. Perfect for drawers, boxes, and more."
+    }
+  },
+  {
+    "id": 11,
+    "slugs": {
+      "es": "cuando-la-madera-te-habla",
+      "en": "when-wood-speaks"
+    },
+    "title": {
+      "es": "La madera habla: cómo aprendí a escucharla",
+      "en": "When Wood Speaks: How I Learned to Listen"
+    },
+    "summary": {
+      "es": "Una reflexión sobre cómo la madera nos habla a través de sus sonidos, vetas y señales, y cómo aprender a escucharla cambió mi forma de trabajar.",
+      "en": "A reflection on how wood speaks through its sounds, grains, and signs—and how learning to listen changed the way I work."
+    },
+    "creationDate": "2025-03-28T10:00:00Z",
+    "displayDate": "2025-03-28T10:00:00Z",
+    "publishDate": "2025-03-28T10:00:00Z",
+    "lastUpdated": "2025-03-28T10:00:00Z",
+    "tags": {
+      "es": ["reflexiones", "experiencia personal", "errores", "aprendizaje"],
+      "en": ["reflections", "personal experience", "mistakes", "learning"]
+    },
+    "author": "Agustin Palisa",
+    "brand": "WoodBench",
+    "image": "/images/blog/cuando-la-madera-te-habla/portada.png",
+    "status": "published",
+    "category": {
+      "es": "Reflexiones",
+      "en": "Reflections"
+    },
+    "readingTime": 4,
+    "featured": false,
+    "likes": 0,
+    "comments": [],
+    "visibility": "public",
+    "excerpt": {
+      "es": "Cuando aprendí a escuchar a la madera, todo cambió: dejó de ser un material y se convirtió en una maestra silenciosa.",
+      "en": "When I learned to listen to wood, everything changed—it stopped being just a material and became a silent teacher."
+    }
+  },
+  {
+    "id": 12,
+    "slugs": {
+      "es": "dia-desastroso-en-el-taller",
+      "en": "disastrous-day-in-the-workshop"
+    },
+    "title": {
+      "es": "Un día en el taller… que nunca debí haber empezado",
+      "en": "A Day in the Workshop… I Should’ve Stayed in Bed"
+    },
+    "summary": {
+      "es": "Un relato de uno de esos días en el taller donde nada sale bien. Pegamento, tornillos y una estantería completamente al revés.",
+      "en": "A story of one of those workshop days when nothing goes right. Glue, screws, and a completely upside-down shelf."
+    },
+    "creationDate": "2025-03-29T01:42:47.611132",
+    "displayDate": "2025-03-29T01:42:47.611146",
+    "publishDate": "2025-03-29T01:42:47.611151",
+    "lastUpdated": "2025-03-29T01:42:47.611155",
+    "tags": {
+      "es": ["anécdota", "errores", "experiencia personal", "taller", "humor"],
+      "en": ["anecdote", "mistakes", "personal experience", "workshop", "humor"]
+    },
+    "author": "Agustin Palisa",
+    "brand": "WoodBench",
+    "image": "/images/blog/dia-desastroso-en-el-taller/portada.jpg",
+    "status": "published",
+    "category": {
+      "es": "Anécdotas",
+      "en": "Anecdotes"
+    },
+    "readingTime": 4,
+    "featured": false,
+    "likes": 0,
+    "comments": [],
+    "visibility": "public",
+    "excerpt": {
+      "es": "Hay días en los que el taller parece tener vida propia… y no precisamente para ayudarte.",
+      "en": "Some days it feels like the workshop has a life of its own... and it's not helping."
+    }
+  },
+  {
+    "id": 13,
+    "slugs": {
+      "es": "epp-carpinteria",
+      "en": "ppe-woodworking"
+    },
+    "title": {
+      "es": "🧤 EPP en Carpintería: Cómo Protegerte de Forma Simple y Efectiva",
+      "en": "🧤 PPE for Woodworking: How to Stay Safe in the Workshop (Without Overcomplicating It)"
+    },
+    "summary": {
+      "es": "Guía simple para elegir y usar el equipo de protección adecuado en carpintería: gafas, guantes, mascarillas y más.",
+      "en": "Simple guide to choosing and using the right personal protective equipment in woodworking: glasses, gloves, masks, and more."
+    },
+    "creationDate": "2025-03-29T01:42:47.611132",
+    "displayDate": "2025-04-25T01:42:47.611146",
+    "publishDate": "2025-04-25T01:42:47.611151",
+    "lastUpdated": "2025-03-29T01:42:47.611155",
+    "tags": {
+      "es": [
+        "consejos",
+        "productos recomendados",
+        "seguridad en carpintería",
+        "principiantes",
+        "epp carpintería"
+      ],
+      "en": [
+        "tips",
+        "recommended products",
+        "woodworking safety",
+        "beginners",
+        "PPE for woodworking"
+      ]
+    },
+    "author": "Agustin Palisa",
+    "brand": "WoodBench",
+    "image": "/images/blog/epp-carpinteria/portada.jpg",
+    "status": "published",
+    "category": {
+      "es": "Consejos",
+      "en": "Tips"
+    },
+    "readingTime": 7,
+    "featured": false,
+    "likes": 0,
+    "comments": [],
+    "visibility": "public",
+    "excerpt": {
+      "es": "La seguridad en el taller empieza por vos: conocé qué elementos de protección usar y cómo elegirlos sin complicarte.",
+      "en": "Workshop safety starts with you: learn what gear to wear and how to choose it — the simple way."
+    }
   }
-  
 ]

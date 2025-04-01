@@ -6,13 +6,9 @@
  * @returns {string} - Fecha formateada (ej: "10/01/2024").
  */
 export const formatDate = (date, language) => {
-    return new Date(date).toLocaleDateString(
-        language === 'es' ? 'es-ES' : 'en-US',
-        {
-            day: '2-digit',
-            month: '2-digit',
-            year: 'numeric',
-        }
-    );
+  return new Date(date).toLocaleDateString(language === 'es' ? 'es-ES' : 'en-US', {
+    day: '2-digit',
+    month: '2-digit',
+    year: 'numeric',
+  });
 };
-  

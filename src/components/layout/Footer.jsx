@@ -22,15 +22,11 @@ export const Footer = () => {
   };
 
   return (
-    <Paper sx={{ marginTop: '50px', padding: '20px', bottom: 0 }}>
-      <Grid container>
-        <Grid size={{xs: 4}}></Grid>
-        {/* Redes Sociales */}
-        <Grid 
-          size={{ xs: 12, md: 4 }}
-          sx={{p:3}}
-        >
-          <Typography variant="h4" sx={{mr: 3}}>
+    <Paper sx={{ mt: 6, p: 3, bottom: 0 }}>
+      {/* <Grid container justifyContent="center">
+        {/* Redes Sociales /}
+        <Grid size={{ xs: 12, md: 4 }} sx={{ p: 3 }}>
+          <Typography variant="h4" sx={{ mr: 3 }}>
             {t('footer.socialMedia')}
           </Typography>
           <IconButton onClick={() => handleSocialMedia('fb')}>
@@ -40,20 +36,10 @@ export const Footer = () => {
             <InstagramIcon fontSize="large" />
           </IconButton>
         </Grid>
-        <Grid size={{xs: 4}}></Grid>
       </Grid>
-      <Grid container>
-        <Grid size={{md: 4}}></Grid>
-        {/* Contacto */}
-        <Grid
-          size={{ xs: 12, md: 4 }}
-          sx={{
-            p: 3
-            // display: 'flex',
-            // alignItems: { xs: 'flex-start', md: 'center' },
-            // flexDirection: { xs: 'column', md: 'row' },
-          }}
-        >
+      <Grid container justifyContent="center">
+        {/* Contacto /}
+        <Grid size={{ xs: 12, md: 4 }} sx={{ p: 3 }}>
           <Typography variant="h4" sx={{ mb: 1 }}>
             {t('footer.contactUs')}
           </Typography>
@@ -69,7 +55,37 @@ export const Footer = () => {
             <Typography>{t('footer.email')}</Typography>
           </Box>
         </Grid>
-        <Grid size={{md: 4}}></Grid>
+      </Grid> */}
+      <Grid container>
+        <Grid size={3}></Grid>
+        <Grid size={3}>
+          <Typography variant="h4" sx={{ mr: 3 }}>
+            {t('footer.socialMedia')}
+          </Typography>
+          <IconButton onClick={() => handleSocialMedia('fb')}>
+            <FacebookIcon fontSize="large" />
+          </IconButton>
+          <IconButton onClick={() => handleSocialMedia('ig')}>
+            <InstagramIcon fontSize="large" />
+          </IconButton>
+        </Grid>
+        <Grid size={3}>
+          <Typography variant="h4" sx={{ mb: 1 }}>
+            {t('footer.contactUs')}
+          </Typography>
+          <Box
+            sx={{
+              display: 'flex',
+              alignItems: 'center',
+              // ml: { xs: 0, md: 3 },
+              flexDirection: { xs: 'row', md: 'row' },
+            }}
+          >
+            <AlternateEmailIcon sx={{ mr: 1 }} />
+            <Typography>{t('footer.email')}</Typography>
+          </Box>
+        </Grid>
+        <Grid size={3}></Grid>
       </Grid>
     </Paper>
   );

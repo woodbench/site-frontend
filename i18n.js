@@ -10,11 +10,11 @@ i18n
     defaultNS: 'translation', // Namespace predeterminado
     backend: {
       // Función para cargar traducciones manualmente
-      loadPath: '/locales/{{lng}}.{{ns}}.json'
+      loadPath: '/locales/{{lng}}.{{ns}}.json',
     },
     interpolation: {
-      escapeValue: false // React ya maneja la protección contra XSS
-    }
+      escapeValue: false, // React ya maneja la protección contra XSS
+    },
   });
 
 // Función para cargar JSON manualmente
@@ -32,6 +32,6 @@ export async function loadResources() {
   return Promise.resolve();
 }
 
-loadResources();
+// loadResources();
 
 export default i18n;

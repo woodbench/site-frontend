@@ -1,13 +1,18 @@
+// 📦 Dependencias externas
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+// 🧱 Layout
+import { Navbar } from '../components/layout/Navbar';
+import { Footer } from '../components/layout/Footer';
+
+// 📄 Páginas
 import { Home } from '../pages/home/Home';
 import { Blog } from '../pages/blog/Blog';
-import { Nosotros } from '../pages/nosotros/Nosotros'
-import { Navbar } from '../components/layout/Navbar';
 import { BlogEntry } from '../pages/blog/BlogEntry';
-import { Footer } from '../components/layout/Footer';
 import { TagPage } from '../pages/tags/TagPage';
-import { NotFound } from '../pages/not-found/NotFound';
+import { Nosotros } from '../pages/nosotros/Nosotros';
 import { CreateEntryPage } from '../pages/crud/CreateEntryPage';
+import { NotFound } from '../pages/not-found/NotFound';
 
 export const AppRoutes = () => {
   return (

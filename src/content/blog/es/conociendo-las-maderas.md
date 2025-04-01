@@ -2,7 +2,6 @@
 
 ![Madera de cedro](/images/blog/conociendo-las-maderas/cedro.jpg)
 
-
 En el fascinante mundo de la carpintería, la elección de la madera es una de las decisiones más importantes que debemos tomar. La madera no solo es el material principal en la mayoría de nuestros proyectos, sino que cada tipo tiene características únicas que pueden afectar la durabilidad, el aspecto y la facilidad de trabajo. En esta entrada, profundizaremos en algunas de las maderas más comunes, sus propiedades, y los usos ideales para cada una de ellas.
 
 ### Maderas Blandas
@@ -14,8 +13,6 @@ Comenzando con las maderas blandas, estas son típicamente más ligeras y más f
 Otra opción popular es el **eucalipto**. Esta madera es un poco más densa y resistente que el pino, con un atractivo color rojizo que le da un acabado estético interesante. Es una excelente elección para muebles y pisos, y su robustez la hace adecuada para su uso en exteriores, siempre que se trate correctamente para resistir las inclemencias del tiempo.
 
 El **cedro** es otra madera blanda que destaca por su aroma agradable y su resistencia a la humedad. Con un color marrón rojizo, es especialmente valorada en la fabricación de muebles de jardín y cajas de almacenamiento. Su capacidad para resistir la descomposición la convierte en una opción ideal para ambientes húmedos, como baños o exteriores.
-
-
 
 ### Maderas Duras
 

@@ -1,19 +1,28 @@
+// 🔹 React
 import { useEffect, useState } from 'react';
+
+// 🔹 React Router
 import { Link, useParams, useNavigate } from 'react-router-dom';
-import ReactMarkdown from 'react-markdown';
-// MUI
-import Grid from '@mui/material/Grid2';
-import { Box, IconButton, Paper, Typography } from '@mui/material';
-// MUI Icons
-import ArrowCircleLeftIcon from '@mui/icons-material/ArrowCircleLeft';
-// Locales
+
+// 🔹 Traducción
 import { useTranslation } from 'react-i18next';
-// Utils
+
+// 🔹 Terceros
+import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw';
+
+// 🔹 MUI
+import { Box, IconButton, Typography } from '@mui/material';
+import Grid from '@mui/material/Grid2';
+import ArrowCircleLeftIcon from '@mui/icons-material/ArrowCircleLeft';
+
+// 🔹 Utils y componentes internos
 import { removeFrontMatter } from '../../utils/removeFrontMatter';
 import { formatDate } from '../../utils/formatDate';
 import { Tags } from '../../components/common/Tags';
-// Services
-import { useGetEntryByIdQuery } from '../../store/services/api';
+
+// 🔹 API (comentada por ahora)
+// import { useGetEntryByIdQuery } from '../../store/services/api';
 
 export const BlogEntry = () => {
   const { t, i18n } = useTranslation();
@@ -22,8 +31,7 @@ export const BlogEntry = () => {
   const [post, setPost] = useState(null);
   const [hasRedirected, setHasRedirected] = useState(false); // Estado para evitar múltiples redirecciones
   const { postId } = useParams();
-  const { data: entry, error, isLoading } = useGetEntryByIdQuery();
-  // console.log(entry)
+  // const { data: entry, error, isLoading } = useGetEntryByIdQuery();
 
   // Cargar metadata de la entrada
   useEffect(() => {
@@ -35,9 +43,7 @@ export const BlogEntry = () => {
         return response.json();
       })
       .then((data) => {
-        const foundPost = data.find((entry) =>
-          Object.values(entry.slugs).includes(postId)
-      );
+        const foundPost = data.find((entry) => Object.values(entry.slugs).includes(postId));
         if (foundPost) {
           setPost(foundPost);
         }
@@ -45,47 +51,47 @@ export const BlogEntry = () => {
       .catch((error) => {
         console.error('Error fetching blog metadata:', error);
       });
-    }, [postId]);
-    
-    // Redirigir al slug correcto al cambiar de idioma
-    useEffect(() => {
-      if (post && !hasRedirected) {
-        const localizedSlug = post.slugs[i18n.language];
-        const targetUrl = `/blog/${localizedSlug}`;
-        if (window.location.pathname !== targetUrl) {
-          console.log('Triggering navigation to:', targetUrl);
-          setHasRedirected(true); // Evita que la redirección ocurra múltiples veces
-          navigate(targetUrl, { replace: true });
-        }
+  }, [postId]);
+
+  // Redirigir al slug correcto al cambiar de idioma
+  useEffect(() => {
+    if (post && !hasRedirected) {
+      const localizedSlug = post.slugs[i18n.language];
+      const targetUrl = `/blog/${localizedSlug}`;
+      if (window.location.pathname !== targetUrl) {
+        console.log('Triggering navigation to:', targetUrl);
+        setHasRedirected(true); // Evita que la redirección ocurra múltiples veces
+        navigate(targetUrl, { replace: true });
       }
-    }, [i18n.language, post, navigate, hasRedirected]);
-    
-    // Cargar contenido Markdown
-    useEffect(() => {
+    }
+  }, [i18n.language, post, navigate, hasRedirected]);
+
+  // Cargar contenido Markdown
+  useEffect(() => {
     if (post) {
       const slugForLanguage = post.slugs[i18n.language];
       fetch(`/src/content/blog/${i18n.language}/${slugForLanguage}.md`)
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error('Network response was not ok');
-        }
-        return response.text();
-      })
-      .then((text) => {
-        const cleanedContent = removeFrontMatter(text)
-        setContent(cleanedContent)
-      })
-      .catch((error) => {
-        console.error('Error fetching the Markdown file:', error);
-        setContent(t('blogEntry.errorLoadingContent'));
-      });
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error('Network response was not ok');
+          }
+          return response.text();
+        })
+        .then((text) => {
+          const cleanedContent = removeFrontMatter(text);
+          setContent(cleanedContent);
+        })
+        .catch((error) => {
+          console.error('Error fetching the Markdown file:', error);
+          setContent(t('blogEntry.errorLoadingContent'));
+        });
     }
   }, [post, i18n.language, t]);
-  
+
   if (!post) {
     return <p>{t('blogEntry.loading')}</p>;
   }
-  
+
   const formattedDate = formatDate(post.publishDate, i18n.language);
 
   return (
@@ -106,6 +112,7 @@ export const BlogEntry = () => {
               {t('blogEntry.publishedOn')} {formattedDate}
             </Typography>
             <ReactMarkdown
+              rehypePlugins={[rehypeRaw]}
               components={{
                 img: ({ node, ...props }) => (
                   <img

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Box, Paper, Typography, Chip } from '@mui/material';
+import { useTranslation } from 'react-i18next';
 
 /**
  * Componente para renderizar una lista de tags con opciones flexibles.
@@ -29,6 +30,7 @@ export const Tags = ({
   ...otherProps
 }) => {
   const [showAll, setShowAll] = useState(false);
+  const { t } = useTranslation();
 
   const renderDefaultTag = (tag) => {
     if (variant === 'chip') {
@@ -37,7 +39,7 @@ export const Tags = ({
           key={tag}
           label={`#${tag}`}
           component={Link}
-          to={`/tags/${tag}`}
+          to={`/tags/${encodeURIComponent(tag)}`}
           clickable
           sx={{
             margin: '4px',
@@ -54,7 +56,7 @@ export const Tags = ({
       <Typography
         component={Link}
         key={tag}
-        to={`/tags/${tag}`}
+        to={`/tags/${encodeURIComponent(tag)}`}
         onClick={() => onTagClick?.(tag)}
         sx={{
           color: 'white',
@@ -87,15 +89,13 @@ export const Tags = ({
           ...containerSx,
         }}
       >
-        {visibleTags.map((tag) =>
-          renderTag ? renderTag(tag) : renderDefaultTag(tag)
-        )}
+        {visibleTags.map((tag) => (renderTag ? renderTag(tag) : renderDefaultTag(tag)))}
         {maxTags && tags.length > maxTags && (
           <Typography
             onClick={toggleShowAll}
             sx={{ margin: '4px', color: 'text.secondary', fontSize: '0.875rem' }}
           >
-            {showAll ? 'Ver menos ...' : 'Ver más ...'}
+            {showAll ? t('tags.seeLess') : t('tags.seeMore')}
           </Typography>
         )}
       </Box>

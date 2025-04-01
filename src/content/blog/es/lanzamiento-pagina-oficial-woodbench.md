@@ -1,14 +1,3 @@
----
-title: "¡WoodBench tendrá su propia página oficial!"
-date: "2024-01-20T10:00:00Z"
-tags:
-  - woodbench
-  - anuncio
-  - lanzamiento
-  - página oficial
-  - carpintería
----
-
 ¡Hola, amantes de la madera!
 
 Hoy quiero compartirles una noticia que me tiene tan emocionado como cuando termino un proyecto y queda mejor de lo que imaginaba. ¡WoodBench tendrá su propia página oficial! Sí, un espacio completamente dedicado a todo lo que amamos: carpintería, creatividad y, por supuesto, nuestras historias y trucos compartidos.

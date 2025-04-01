@@ -11,6 +11,7 @@ After struggling so much with oak, I kept hearing great things about pine. “It
 However, pine has its quirks. Being a softwood, it’s easy to dent if you’re not careful. I remember one project in particular: I was working on a bookshelf, and just as I was about to finish, I accidentally dropped one of the pieces. The impact left such a deep dent that it completely ruined the finish. I ended up having to start over, which taught me to be much more careful at every step of the process.
 
 ### Phenolic Plywood: My Versatile Companion
+
 After gaining some experience with pine, I decided to take on something a bit more technical: phenolic plywood. I was interested in it for building more resistant structures, and after some research, I discovered it’s an excellent option for projects that require moisture resistance, making it ideal for outdoor projects.
 
 Phenolic plywood, also known as phenolic board, is made of thin layers of wood glued together with a phenolic resin, giving it extra moisture resistance. Unlike regular plywood, which is also made of wood layers, phenolic plywood stands out because its layers are better suited for more demanding conditions.

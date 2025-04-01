@@ -14,7 +14,7 @@ export const NotFound = () => {
         alignItems: 'center',
         height: '100vh',
         textAlign: 'center',
-        padding: '20px'
+        padding: '20px',
       }}
     >
       <Typography
@@ -23,7 +23,7 @@ export const NotFound = () => {
           fontSize: { xs: '2.5rem', md: '4rem' },
           color: '#ddd',
           marginBottom: '20px',
-          fontWeight: 'bold'
+          fontWeight: 'bold',
         }}
       >
         {t('notFound.title')}
@@ -33,7 +33,7 @@ export const NotFound = () => {
         sx={{
           fontSize: { xs: '1rem', md: '1.5rem' },
           color: '#aaa',
-          marginBottom: '30px'
+          marginBottom: '30px',
         }}
       >
         {t('notFound.message')}
@@ -54,8 +54,8 @@ export const NotFound = () => {
           mt: 8,
           fontSize: '1rem',
           '&:hover': {
-            backgroundColor: '#444'
-          }
+            backgroundColor: '#444',
+          },
         }}
       >
         {t('notFound.button')}

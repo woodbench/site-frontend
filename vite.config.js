@@ -8,6 +8,6 @@ export default defineConfig({
     historyApiFallback: true, // Asegura que todas las rutas vuelvan al index.html
   },
   define: {
-    global: 'window', // Define `global` como `window` para evitar errores con Draft.js
+    global: 'window', // Necesario para librerías como Draft.js que esperan `global` como en Node
   },
 });

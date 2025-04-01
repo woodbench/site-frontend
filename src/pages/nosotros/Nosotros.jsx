@@ -30,9 +30,7 @@ export const Nosotros = () => {
         ))}
 
         {/* Último párrafo destacado */}
-        <Typography sx={{ mb: 3, fontWeight: 600, fontSize: '20px' }}>
-          {highlighted}
-        </Typography>
+        <Typography sx={{ mb: 3, fontWeight: 600, fontSize: '20px' }}>{highlighted}</Typography>
 
         {/* Firma */}
         <Typography sx={{ textAlign: 'right', fontSize: '22px', fontStyle: 'italic' }}>
