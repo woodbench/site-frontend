@@ -1,0 +1,65 @@
+name: 🐛 Bug Report
+description: Reportar un error inesperado, comportamiento no deseado o funcionalidad rota.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ¡Gracias por tomarte el tiempo de reportar este bug! Por favor completá la información abajo para poder reproducirlo y resolverlo.
+
+  - type: input
+    id: title
+    attributes:
+      label: Título del bug
+      description: Una descripción breve del problema.
+      placeholder: "Ejemplo: El botón 'Enviar' no responde"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Descripción del error
+      description: Explicá qué ocurre y qué esperabas que ocurriera.
+      placeholder: "Cuando hago clic en 'Enviar', no pasa nada. Debería guardar el formulario y mostrar una confirmación."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Pasos para reproducirlo
+      description: Cómo podemos reproducir el error.
+      placeholder: |
+        1. Ir a la página 'Contacto'
+        2. Llenar el formulario
+        3. Hacer clic en 'Enviar'
+        4. Nada ocurre
+      render: bash
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severidad
+      description: ¿Qué impacto tiene este bug?
+      options:
+        - 🟢 Menor – No afecta la funcionalidad principal
+        - 🟡 Moderado – Algunas funciones importantes fallan
+        - 🔴 Crítico – Impide el uso del sistema
+    validations:
+      required: true
+
+  - type: input
+    id: navegador
+    attributes:
+      label: Navegador o entorno
+      description: ¿Dónde ocurre el problema?
+      placeholder: 'Ejemplo: Chrome 122, Firefox 115, Node 20.11.0, etc.'
+
+  - type: textarea
+    id: otros
+    attributes:
+      label: Comentarios adicionales
+      description: Información extra, capturas de pantalla, logs o contexto relevante.

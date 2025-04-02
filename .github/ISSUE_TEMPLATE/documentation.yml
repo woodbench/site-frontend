@@ -1,0 +1,37 @@
+name: 📚 Documentation
+description: Report an issue or suggest an improvement to the documentation.
+title: '[Docs] '
+labels: [documentation]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 📚 Documentation Issue
+        Use this template to report a missing, unclear, outdated, or incorrect piece of documentation.
+
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: Where is the issue or improvement needed?
+      placeholder: e.g. README.md, Banner.md, Contributing.md, etc.
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-doc
+    attributes:
+      label: What's wrong or missing?
+      description: Describe what needs to be updated or added.
+      placeholder: e.g. The installation section is missing commands for Mac users.
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested change or improvement (optional)
+      description: If you have a suggestion for the new or corrected text, share it here.
+      placeholder: You can suggest specific wording or structure...

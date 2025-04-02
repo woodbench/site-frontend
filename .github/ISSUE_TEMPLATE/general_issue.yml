@@ -1,0 +1,36 @@
+name: 💬 General Issue
+description: Anything else that doesn't fit other templates.
+title: '[General] '
+labels: [question]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 💬 General Issue
+        Use this template to ask questions, suggest general ideas, or discuss anything not covered by other templates.
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context or idea
+      description: What's on your mind?
+      placeholder: e.g. I was wondering if we should add a dark mode toggle to the website...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: relevance
+    attributes:
+      label: Is this related to...
+      description: Let us know if this is related to an existing area.
+      options:
+        - Nothing in particular
+        - The frontend
+        - The backend / API
+        - The documentation
+        - The design / UI
+        - The content or translations
+    validations:
+      required: false
