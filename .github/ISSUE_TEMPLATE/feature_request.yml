@@ -1,0 +1,37 @@
+name: 🚀 Feature Request
+description: Propose a new feature or improvement for the project.
+title: '[Feature] '
+labels: [feature, enhancement]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 📌 Feature Request
+        Please describe the new feature or enhancement you're proposing.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What would you like to see added?
+      description: A clear and concise description of the feature or improvement.
+      placeholder: e.g. I'd like a way to filter blog posts by category or date...
+    validations:
+      required: true
+
+  - type: textarea
+    id: benefits
+    attributes:
+      label: What are the benefits of this feature?
+      description: How does this feature improve the project or user experience?
+      placeholder: Improves navigation, saves time, adds clarity, etc.
+    validations:
+      required: true
+
+  - type: textarea
+    id: implementation
+    attributes:
+      label: Suggested Implementation (Optional)
+      description: If you have an idea for how to implement this, share it here.
+      placeholder: e.g. Add a dropdown menu in the blog sidebar...
