@@ -82,6 +82,7 @@ We use this naming scheme for development branches:
 - `hotfix/urgencia` – Arreglo urgente en producción | Emergency fix
 - `refactor/nombre-del-refactor` – Mejora interna sin cambiar funcionalidad | internal refactor
 - `docs/nombre-documentacion` – Documentacion | Documentation
+- `chore/nombre-del-chore` – Tareas menores o de mantenimiento (actualización de dependencias, limpieza, scripts) | Minor or maintenance tasks (dependencies updates, cleaning, scripts)
 
 Ejemplos | Examples:
 
