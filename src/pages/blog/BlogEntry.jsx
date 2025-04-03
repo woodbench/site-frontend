@@ -20,6 +20,7 @@ import ArrowCircleLeftIcon from '@mui/icons-material/ArrowCircleLeft';
 import { removeFrontMatter } from '../../utils/removeFrontMatter';
 import { formatDate } from '../../utils/formatDate';
 import { Tags } from '../../components/common/Tags';
+import { NotFound } from '../not-found/NotFound';
 
 // 🔹 API (comentada por ahora)
 // import { useGetEntryByIdQuery } from '../../store/services/api';
@@ -89,7 +90,7 @@ export const BlogEntry = () => {
   }, [post, i18n.language, t]);
 
   if (!post) {
-    return <p>{t('blogEntry.loading')}</p>;
+    return <NotFound />;
   }
 
   const formattedDate = formatDate(post.publishDate, i18n.language);
