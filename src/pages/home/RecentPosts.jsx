@@ -1,7 +1,11 @@
+// Translation
 import { useTranslation } from 'react-i18next';
+
+// MUI Core
 import { Typography } from '@mui/material';
 import Grid from '@mui/material/Grid2';
 
+// Internal components
 import { PostCard } from '../../components/common/PostCard';
 
 export const RecentPosts = ({ posts }) => {

@@ -1,27 +1,27 @@
-// 🔹 React
+// React
 import { useEffect, useState } from 'react';
 
-// 🔹 React Router
+// React Router
 import { Link, useParams, useNavigate } from 'react-router-dom';
 
-// 🔹 Traducción
+// Translation
 import { useTranslation } from 'react-i18next';
 
-// 🔹 Terceros
+// Third-Party
 import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
 
-// 🔹 MUI
+// MUI Core
 import { Box, IconButton, Typography } from '@mui/material';
 import Grid from '@mui/material/Grid2';
 import ArrowCircleLeftIcon from '@mui/icons-material/ArrowCircleLeft';
 
-// 🔹 Utils y componentes internos
+// Utils and internal components
 import { removeFrontMatter } from '../../utils/removeFrontMatter';
 import { formatDate } from '../../utils/formatDate';
 import { Tags } from '../../components/common/Tags';
 
-// 🔹 API (comentada por ahora)
+// API (comentada por ahora)
 // import { useGetEntryByIdQuery } from '../../store/services/api';
 
 export const BlogEntry = () => {
@@ -29,7 +29,7 @@ export const BlogEntry = () => {
   const navigate = useNavigate();
   const [content, setContent] = useState('');
   const [post, setPost] = useState(null);
-  const [hasRedirected, setHasRedirected] = useState(false); // Estado para evitar múltiples redirecciones
+  const [hasRedirected, setHasRedirected] = useState(false);
   const { postId } = useParams();
   // const { data: entry, error, isLoading } = useGetEntryByIdQuery();
 

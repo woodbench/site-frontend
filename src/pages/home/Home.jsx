@@ -1,4 +1,7 @@
+// MUI Core
 import { Grid2 } from '@mui/material';
+
+// Hooks and internal components
 import { useBlogPosts } from '../../hooks/useBlogPosts';
 import { Banner } from '../../components/common/banner/Banner';
 import { FeaturedPosts } from './FeaturedPosts';

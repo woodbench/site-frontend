@@ -1,15 +1,22 @@
+// React
 import React from 'react';
+
+// Translation
+import { useTranslation } from 'react-i18next';
+
+// MUI Core
 import Grid from '@mui/material/Grid2';
 import { Box, Typography } from '@mui/material';
-import { useTranslation } from 'react-i18next';
+
+// Utils and internal documents
 import { PostCard } from '../../components/common/PostCard';
 import { useBlogPosts } from '../../hooks/useBlogPosts';
-import { useGetEntryCardsQuery } from '../../store/services/api';
+// import { useGetEntryCardsQuery } from '../../store/services/api';
 
 export const Blog = () => {
   const { t } = useTranslation();
 
-  // 🔄 Para usar cuando se conecte al backend:
+  // 🔄 Para usar cuando se conecte al backend / for use when it's connected to the backend:
   // const { data: entries, isLoading, isError } = useGetEntryCardsQuery();
   // TODO: Reemplazar useBlogPosts con useGetEntryCardsQuery cuando se conecte al backend real
   const { posts, isLoading, error } = useBlogPosts();

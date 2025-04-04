@@ -1,4 +1,3 @@
-// src/theme/theme.js
 import { createTheme } from '@mui/material/styles';
 
 // Importar las fuentes desde @fontsource
@@ -7,47 +6,47 @@ import '@fontsource/raleway';
 
 const theme = createTheme({
   palette: {
-    mode: 'dark', // Modo oscuro
+    mode: 'dark',
     primary: {
-      main: '#90caf9', // Azul claro para botones primarios y otros elementos importantes
+      main: '#90caf9', // Azul claro / Light blue
     },
     secondary: {
-      main: '#f48fb1', // Rosa claro para botones secundarios y acentos
+      main: '#f48fb1', // Rosa claro / Light Pink
     },
     background: {
-      default: '#333', // Fondo principal oscuro
-      paper: '#424242', // Fondo para cajas o elementos tipo Paper
+      default: '#333', // Oscuro / Dark
+      paper: '#424242',
     },
     text: {
-      primary: '#ffffff', // Texto principal blanco
-      secondary: '#bdbdbd', // Texto secundario gris claro
+      primary: '#ffffff', // Blanco / White
+      secondary: '#bdbdbd', // Gris claro / Light grey
     },
   },
   typography: {
-    fontFamily: ['Raleway', 'Arial', 'sans-serif'].join(','), // Fuente principal para el cuerpo del texto
+    fontFamily: ['Raleway', 'Arial', 'sans-serif'].join(','),
     h1: {
-      fontFamily: 'Playfair Display, Arial, sans-serif', // Fuente para títulos h1
+      fontFamily: 'Playfair Display, Arial, sans-serif',
       fontSize: '2.5rem',
     },
     h2: {
-      fontFamily: 'Playfair Display, Arial, sans-serif', // Fuente para títulos h2
+      fontFamily: 'Playfair Display, Arial, sans-serif',
       fontSize: '2rem',
     },
     h3: {
-      fontFamily: 'Playfair Display, Arial, sans-serif', // Fuente para títulos h3
+      fontFamily: 'Playfair Display, Arial, sans-serif',
       fontSize: '1.5rem',
     },
     h4: {
-      fontFamily: 'Playfair Display, Arial, sans-serif', // Fuente para títulos h4
+      fontFamily: 'Playfair Display, Arial, sans-serif',
       fontSize: '1.3rem',
     },
     h5: {
-      fontFamily: 'Playfair Display, Arial, sans-serif', // Fuente para títulos h5
+      fontFamily: 'Playfair Display, Arial, sans-serif',
       fontSize: '1.2rem',
       letterSpacing: '.2rem',
     },
     h6: {
-      fontFamily: 'Playfair Display, Arial, sans-serif', // Fuente para títulos h6
+      fontFamily: 'Playfair Display, Arial, sans-serif',
       fontSize: '1.1rem',
       letterSpacing: '.2rem',
     },
@@ -56,16 +55,15 @@ const theme = createTheme({
     MuiAppBar: {
       styleOverrides: {
         root: {
-          backgroundColor: '#333', // Fondo oscuro para el AppBar
+          backgroundColor: '#333',
         },
       },
     },
     MuiButton: {
       styleOverrides: {
         root: {
-          textTransform: 'none', // No poner el texto en mayúsculas automáticamente
+          textTransform: 'none', // No mayus auto.
           color: 'white',
-          // backgroundColor: '#333'
         },
       },
     },

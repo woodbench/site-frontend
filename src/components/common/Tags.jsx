@@ -1,6 +1,13 @@
+// React
 import React, { useState } from 'react';
+
+// React Router
 import { Link } from 'react-router-dom';
+
+// MUI
 import { Box, Paper, Typography, Chip } from '@mui/material';
+
+// Translation
 import { useTranslation } from 'react-i18next';
 
 /**

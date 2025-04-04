@@ -1,6 +1,10 @@
+// Translation
 import { useTranslation } from 'react-i18next';
+
+// MUI Core
 import { Typography } from '@mui/material';
 
+// Internal components
 import { PostCard } from '../../components/common/PostCard';
 
 export const FeaturedPosts = ({ posts }) => {

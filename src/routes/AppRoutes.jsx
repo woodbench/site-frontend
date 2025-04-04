@@ -1,11 +1,11 @@
-// 📦 Dependencias externas
+// 📦 External Dependencies
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 // 🧱 Layout
 import { Navbar } from '../components/layout/Navbar';
 import { Footer } from '../components/layout/Footer';
 
-// 📄 Páginas
+// 📄 Pages
 import { Home } from '../pages/home/Home';
 import { Blog } from '../pages/blog/Blog';
 import { BlogEntry } from '../pages/blog/BlogEntry';
