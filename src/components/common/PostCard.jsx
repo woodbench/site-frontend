@@ -1,24 +1,27 @@
+// React
 import React from 'react';
+
+// React Router
 import { Link } from 'react-router-dom';
+
+// Translation
 import { useTranslation } from 'react-i18next';
 
+// MUI
 import { Button, Card, CardActions, CardContent, CardMedia, Typography } from '@mui/material';
 import Grid from '@mui/material/Grid2';
 import MenuBookIcon from '@mui/icons-material/MenuBook';
 
+// Utils and internal components
 import { formatDate } from '../../utils/formatDate';
 
 export const PostCard = ({ post }) => {
   const { t, i18n } = useTranslation();
   const { title, excerpt, publishDate, image, slugs, readingTime } = post;
 
-  // Acceder al slug localizado
   const slug = slugs[i18n.language];
-
-  // Acceder al título y resumen localizados
   const localizedTitle = title[i18n.language];
   const localizedSummary = excerpt[i18n.language];
-
   const formattedDate = formatDate(publishDate, i18n.language);
 
   return (

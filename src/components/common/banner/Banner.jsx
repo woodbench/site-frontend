@@ -1,8 +1,10 @@
-// Paquetes externos
+// MUI
 import { CardMedia, Box } from '@mui/material';
+
+// Translation
 import { useTranslation } from 'react-i18next';
 
-// Componentes internos
+// Internal Components
 import { BannerOverlay } from './BannerOverlay';
 import { BannerContent } from './BannerContent';
 
@@ -21,9 +23,7 @@ export const Banner = () => {
         alt={t('banner.alt')}
         sx={{ width: '100%', objectFit: 'cover' }}
       />
-      {/* Superposiciones */}
       <BannerOverlay />
-      {/* Contenido */}
       <BannerContent
         title={t('banner.title')}
         subtitle={t('banner.subtitle')}

@@ -1,10 +1,10 @@
 // React
 import * as React from 'react';
 
-// Router
+// React Router
 import { Link } from 'react-router-dom';
 
-// i18n
+// Translation
 import { useTranslation } from 'react-i18next';
 
 // MUI Core
@@ -31,7 +31,7 @@ import HomeIcon from '@mui/icons-material/Home';
 import EmojiPeopleIcon from '@mui/icons-material/EmojiPeople';
 import ArticleIcon from '@mui/icons-material/Article';
 
-// Componentes propios
+// Utils and internal components
 import { LanguageSelector } from '../common/LanguageSelector';
 
 export const Navbar = () => {
@@ -125,24 +125,6 @@ export const Navbar = () => {
                 sx={{ width: 80, height: 80 }}
               />
             </IconButton>
-            {/* <Typography
-              variant="h4"
-              noWrap
-              component={Link}
-              to="/"
-              sx={{
-                ml: 2,
-                fontFamily: 'Chakra Petch, Arial, sans-serif',
-                fontWeight: 500,
-                letterSpacing: '.4rem',
-                color: 'white',
-                textDecoration: 'none',
-                flexGrow: 1,
-                fontSize: 10
-              }}
-            >
-              WOODBENCH
-            </Typography> */}
           </Box>
           {/* Contenido para vista desktop */}
           <IconButton

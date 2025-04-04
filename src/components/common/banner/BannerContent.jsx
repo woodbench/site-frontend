@@ -1,9 +1,9 @@
+// React Router
+import { Link } from 'react-router-dom';
+
 // MUI
 import { Typography, Button, Box } from '@mui/material';
 import Grid from '@mui/material/Grid2';
-
-// Router
-import { Link } from 'react-router-dom';
 
 export const BannerContent = ({ title, subtitle, inspiration, buttonText, buttonLink }) => (
   <Box

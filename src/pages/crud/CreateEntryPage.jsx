@@ -1,10 +1,11 @@
+// React
 import React from 'react';
 
-// MUI
+// MUI Core
 import { Box, Typography } from '@mui/material';
 import Grid from '@mui/material/Grid2';
 
-// Componentes internos
+// Internal components
 import { EntryJsonForm } from '../../components/form/EntryJsonForm';
 import { RichTextEditor } from '../../components/form/RichTextEditor';
 

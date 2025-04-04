@@ -1,6 +1,11 @@
-import { useTranslation } from 'react-i18next';
-import { Button, Box, Typography } from '@mui/material';
+// React Router
 import { Link } from 'react-router-dom';
+
+// Translation
+import { useTranslation } from 'react-i18next';
+
+// MUI Core
+import { Button, Box, Typography } from '@mui/material';
 
 export const NotFound = () => {
   const { t } = useTranslation();

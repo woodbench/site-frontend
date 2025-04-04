@@ -1,10 +1,17 @@
+// React
 import React from 'react';
+
+// Translation
+import { useTranslation } from 'react-i18next';
+
+// MUI
 import { Box, IconButton, Paper, Typography } from '@mui/material';
 import Grid from '@mui/material/Grid2';
+
+// MUI Icons
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
-import { useTranslation } from 'react-i18next';
 
 export const Footer = () => {
   const { t } = useTranslation();
